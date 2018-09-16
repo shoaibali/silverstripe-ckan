@@ -7,12 +7,12 @@ php:
 sudo: false
 
 env:
- - DB=MYSQL CORE_RELEASE=3.2
+ - DB=MYSQL CORE_RELEASE=3.7
 
 matrix:
   include:
     - php: 5.6
-      env: DB=PGSQL CORE_RELEASE=3.2
+      env: DB=PGSQL CORE_RELEASE=3.7
 
 before_script:
  - git clone git://github.com/silverstripe-labs/silverstripe-travis-support.git ~/travis-support

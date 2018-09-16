@@ -13,8 +13,8 @@
   },
   "require": {
     "php": ">=5.5",
-    "silverstripe/cms": "3.6.x-dev",
-    "silverstripe/framework": "3.6.x-dev",
+    "silverstripe/cms": "3.7.x-dev",
+    "silverstripe/framework": "3.7.x-dev",
     "guzzlehttp/guzzle": "6.*@stable"
   },
   "require-dev": {
