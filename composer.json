@@ -12,8 +12,8 @@
     "issues": "http://github.com/shoaibali/silverstripe-ckan/issues"
   },
   "require": {
-    "silverstripe/cms": "~3.6",
-    "silverstripe/framework": "~3.6",
+    "silverstripe/cms": "~3.7",
+    "silverstripe/framework": "~3.7",
     "guzzlehttp/guzzle": "6.*@stable"
   },
   "require-dev": {

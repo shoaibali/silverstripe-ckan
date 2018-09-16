@@ -1,6 +1,8 @@
 silverstripe-ckan
 =================
 
+[![Build Status](https://travis-ci.org/shoaibali/silverstripe-ckan.svg?branch=master)](https://travis-ci.org/shoaibali/silverstripe-ckan) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/shoaibali/silverstripe-ckan/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/shoaibali/silverstripe-ckan/?branch=master)
+
 *** WORK IN PROGRESS ***
 
 SilverStripe CKAN (Comprehensive Knowledge Archive Network) API client 
