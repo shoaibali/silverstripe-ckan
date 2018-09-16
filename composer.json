@@ -1,0 +1,37 @@
+{
+  "name": "shoaibali/silverstripe-ckan",
+  "description": "SilverStripe module for consuming ckan (Comprehensive Knowledge Archive Network) APIs",
+  "type": "silverstripe-module",
+  "homepage": "http://github.com/shoaibali/silverstripe-ckan",
+  "keywords": ["silverstripe", "ckan", "open-data"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {"name": "Shoaib Ali","email": "shoaib@webstrike.co.nz"}
+  ],
+  "support": {
+    "issues": "http://github.com/shoaibali/silverstripe-ckan/issues"
+  },
+  "require": {
+    "silverstripe/cms": "~3.6",
+    "silverstripe/framework": "~3.6",
+    "guzzlehttp/guzzle": "6.*@stable"
+  },
+  "require-dev": {
+        "phpunit/phpunit": "^3 || ^4 || ^5"
+  },
+  "autoload": {
+        "classmap": [
+            "code"
+        ],
+        "psr-4" : {
+            "Ckan\\" : "code/"
+        }
+  },
+  "extra": {
+    "installer-name": "ckan",
+    "screenshots": [
+      "silverstripe-ckan/docs/screenshot1.png",
+      "https://silverstripe-ckan.github.io/screenshot2.png"
+    ]
+  }
+}

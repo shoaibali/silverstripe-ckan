@@ -1,0 +1,24 @@
+# See https://github.com/silverstripe-labs/silverstripe-travis-support for setup details
+
+language: php
+php:
+ - 5.6
+
+sudo: false
+
+env:
+ - DB=MYSQL CORE_RELEASE=3.2
+
+matrix:
+  include:
+    - php: 5.6
+      env: DB=PGSQL CORE_RELEASE=3.2
+
+before_script:
+ - git clone git://github.com/silverstripe-labs/silverstripe-travis-support.git ~/travis-support
+ - php ~/travis-support/travis_setup.php --source `pwd` --target ~/builds/ss
+ - composer self-update
+ - cd ~/builds/ss
+
+script:
+ - vendor/bin/phpunit ckan/tests/

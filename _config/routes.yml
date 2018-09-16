@@ -1,0 +1,3 @@
+Director:
+  rules:
+    'ckan//$Action/$ID/$Name': 'CkanPage_Controller'
