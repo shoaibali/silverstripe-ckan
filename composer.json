@@ -12,12 +12,12 @@
     "issues": "http://github.com/shoaibali/silverstripe-ckan/issues"
   },
   "require": {
-    "silverstripe/cms": "3.7.x-dev",
-    "silverstripe/framework": "~3.7",
+    "silverstripe/cms": "~3.6",
+    "silverstripe/framework": "~3.6",
     "guzzlehttp/guzzle": "6.*@stable"
   },
   "require-dev": {
-        "phpunit/phpunit": "^3 || ^4 || ^5"
+        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
   },
   "autoload": {
         "classmap": [
